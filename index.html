@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balls World</title>
+    <style>
+        header, footer{
+            background-color: purple;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            margin: 0px;
+        }
+        /* Start Header Style */     
+        header nav ul  li{
+            display: inline;   
+            padding-right: 8px;
+        }
+        /* End Header Style */
+
+        /* End Main Style */
+        main{
+            height: 455px;
+            margin: 20px;
+        }
+        main h1{
+            background-color: seashell;
+            color: purple;
+            padding: 10px;
+            text-align: center;
+        }
+        main p{
+            padding: 30px;
+        }
+        /* End Main Style */
+
+        /* Start Footer Style*/
+        footer{
+            text-align: center;
+        }
+        /* End Footer Style*/
+    </style>
+</head>
+
+<body>
+    <!-- start header-->
+    <header>
+        <h3>Balls World</h3>
+        <nav>        
+            <ul>
+                <li>
+                    Home
+                </li>
+                <li>
+                    About Us
+                </li>
+                <li>
+                    Desserts
+                </li>
+                <li>
+                    Drinks
+                </li>
+                <li>
+                    Contact Us
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end header-->
+
+
+    <!-- Start Content-->
+    <main>
+        <h1>Class 1 Lab</h1>
+        <p style="background-color: violet; color:purple">
+            What is your name ?
+        </p>
+        <p style="background-color: blueviolet; color:white">
+            which type of desserts you want to take ?
+        </p>
+        <p style="background-color: palevioletred; color:wheat">
+            Do you want to drink something with it ?
+        </p>
+        <p style="background-color: paleturquoise; color:purple">
+            Do you want any other thing ?
+        </p>
+    </main>
+    <!-- End Content-->
+  
+
+   <!-- Start Footer --> 
+    <footer>
+        Copyright|All Rights Reserved For Balls World.|2020
+    </footer>
+    <!-- Start Footer -->
+
+
+    <script>
+        var name =  prompt('What is your name ?')
+        alert('Welcome to our shop ' + name);
+        console.log('The question was: What is your name ? and the answer was ' + name)
+
+        var order = prompt('which type of desserts you want to take ?')
+        alert('Welcome to our shop ' + name + ', You ordered ' + order)
+        console.log('The question was: which type of desserts you want to take ? and the answer was ' + order)
+
+        var drink = prompt('Do you want to drink something with it ?')
+        alert('Welcome to our shop ' + name + ', You ordered ' + order + ', You also chose ' + drink)
+        console.log('The question was: Do you want to drink something with it ? and the answer was ' + drink)
+
+        var addition = prompt('Do you want any other thing ?')
+        alert('Welcome to our shop ' + name + ', You ordered ' + order + ', You also chose ' + drink + ', and you add ' + addition)
+        console.log('The question was: Do you want any other thing ? and the answer was ' + addition)
+    </script>
+
+</body>
+
+
+</html>
